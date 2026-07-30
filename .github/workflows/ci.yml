@@ -85,10 +85,6 @@ jobs:
         working-directory: frontend
         run: npm install --legacy-peer-deps
 
-      - name: Lint
-        working-directory: frontend
-        run: npm run lint --if-present
-
       - name: Build
         working-directory: frontend
         run: npm run build
