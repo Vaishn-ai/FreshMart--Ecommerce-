@@ -1,0 +1,201 @@
+{
+  "info": {
+    "name": "FreshMart API",
+    "description": "FreshMart e-commerce API — Auth, Products, Cart, Orders, Payments, Reviews, Dashboard.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost:8000/api/v1" },
+    { "key": "access_token", "value": "" },
+    { "key": "refresh_token", "value": "" },
+    { "key": "product_id", "value": "" },
+    { "key": "order_id", "value": "" }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [{ "key": "token", "value": "{{access_token}}" }]
+  },
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Register",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{base_url}}/auth/register/",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"janedoe\",\n  \"email\": \"jane@example.com\",\n  \"phone\": \"9999999999\",\n  \"password\": \"StrongPass123\",\n  \"password2\": \"StrongPass123\"\n}"
+            }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {
+              "exec": [
+                "if (pm.response.code === 201) {",
+                "  const data = pm.response.json();",
+                "  pm.collectionVariables.set('access_token', data.access);",
+                "  pm.collectionVariables.set('refresh_token', data.refresh);",
+                "}"
+              ]
+            }
+          }]
+        },
+        {
+          "name": "Login",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{base_url}}/auth/login/",
+            "body": { "mode": "raw", "raw": "{\n  \"email\": \"jane@example.com\",\n  \"password\": \"StrongPass123\"\n}" }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {
+              "exec": [
+                "if (pm.response.code === 200) {",
+                "  const data = pm.response.json();",
+                "  pm.collectionVariables.set('access_token', data.access);",
+                "  pm.collectionVariables.set('refresh_token', data.refresh);",
+                "}"
+              ]
+            }
+          }]
+        },
+        {
+          "name": "Refresh Token",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{base_url}}/auth/token/refresh/",
+            "body": { "mode": "raw", "raw": "{\n  \"refresh\": \"{{refresh_token}}\"\n}" }
+          }
+        },
+        { "name": "Get Profile", "request": { "method": "GET", "url": "{{base_url}}/auth/profile/" } },
+        {
+          "name": "Forgot Password",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{base_url}}/auth/forgot-password/",
+            "body": { "mode": "raw", "raw": "{\n  \"email\": \"jane@example.com\"\n}" }
+          }
+        },
+        {
+          "name": "Create Address",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{base_url}}/auth/addresses/",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"label\": \"home\",\n  \"full_name\": \"Jane Doe\",\n  \"phone\": \"9999999999\",\n  \"line1\": \"123 Main St\",\n  \"city\": \"Nagpur\",\n  \"state\": \"Maharashtra\",\n  \"pincode\": \"440001\",\n  \"is_default\": true\n}"
+            }
+          }
+        },
+        { "name": "Logout", "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "url": "{{base_url}}/auth/logout/", "body": { "mode": "raw", "raw": "{\n  \"refresh\": \"{{refresh_token}}\"\n}" } } }
+      ]
+    },
+    {
+      "name": "Categories",
+      "item": [
+        { "name": "List Categories", "request": { "method": "GET", "url": "{{base_url}}/categories/" } },
+        { "name": "List Brands", "request": { "method": "GET", "url": "{{base_url}}/categories/brands/" } }
+      ]
+    },
+    {
+      "name": "Products",
+      "item": [
+        { "name": "List Products", "request": { "method": "GET", "url": "{{base_url}}/products/?page=1" } },
+        { "name": "Search Products", "request": { "method": "GET", "url": "{{base_url}}/products/?search=apple" } },
+        { "name": "Filter by Price", "request": { "method": "GET", "url": "{{base_url}}/products/?min_price=10&max_price=100" } },
+        { "name": "Featured Products", "request": { "method": "GET", "url": "{{base_url}}/products/featured/" } },
+        { "name": "Flash Sale", "request": { "method": "GET", "url": "{{base_url}}/products/flash-sale/" } },
+        { "name": "Best Sellers", "request": { "method": "GET", "url": "{{base_url}}/products/best-sellers/" } },
+        { "name": "Recommended", "request": { "method": "GET", "url": "{{base_url}}/products/recommended/" } },
+        { "name": "Recently Viewed", "request": { "method": "GET", "url": "{{base_url}}/products/recently-viewed/" } },
+        { "name": "Autocomplete", "request": { "method": "GET", "url": "{{base_url}}/products/autocomplete/?q=app" } },
+        { "name": "Compare Products", "request": { "method": "GET", "url": "{{base_url}}/products/compare/?ids={{product_id}}" } },
+        { "name": "Voice Search", "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "url": "{{base_url}}/products/search/voice/", "body": { "mode": "raw", "raw": "{\n  \"transcript\": \"organic apples\"\n}" } } },
+        { "name": "Product Detail", "request": { "method": "GET", "url": "{{base_url}}/products/{{product_id}}/" } },
+        { "name": "Frequently Bought Together", "request": { "method": "GET", "url": "{{base_url}}/products/{{product_id}}/frequently-bought-together/" } }
+      ]
+    },
+    {
+      "name": "Cart",
+      "item": [
+        { "name": "Get Cart", "request": { "method": "GET", "url": "{{base_url}}/cart/" } },
+        { "name": "Add to Cart", "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "url": "{{base_url}}/cart/add/", "body": { "mode": "raw", "raw": "{\n  \"product_id\": \"{{product_id}}\",\n  \"quantity\": 2\n}" } } },
+        { "name": "Apply Coupon", "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "url": "{{base_url}}/cart/coupon/", "body": { "mode": "raw", "raw": "{\n  \"code\": \"SAVE10\"\n}" } } },
+        { "name": "Remove Coupon", "request": { "method": "DELETE", "url": "{{base_url}}/cart/coupon/" } },
+        { "name": "Clear Cart", "request": { "method": "DELETE", "url": "{{base_url}}/cart/clear/" } }
+      ]
+    },
+    {
+      "name": "Wishlist",
+      "item": [
+        { "name": "Get Wishlist", "request": { "method": "GET", "url": "{{base_url}}/wishlist/" } },
+        { "name": "Add to Wishlist", "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "url": "{{base_url}}/wishlist/", "body": { "mode": "raw", "raw": "{\n  \"product_id\": \"{{product_id}}\"\n}" } } },
+        { "name": "Move to Cart", "request": { "method": "POST", "url": "{{base_url}}/wishlist/{{product_id}}/move-to-cart/" } }
+      ]
+    },
+    {
+      "name": "Orders",
+      "item": [
+        {
+          "name": "Checkout",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{base_url}}/orders/checkout/",
+            "body": { "mode": "raw", "raw": "{\n  \"address_id\": \"REPLACE_WITH_ADDRESS_ID\",\n  \"shipping_method\": \"standard\",\n  \"payment_method\": \"cod\"\n}" }
+          },
+          "event": [{
+            "listen": "test",
+            "script": { "exec": ["if (pm.response.code === 201) { pm.collectionVariables.set('order_id', pm.response.json().id); }"] }
+          }]
+        },
+        { "name": "List My Orders", "request": { "method": "GET", "url": "{{base_url}}/orders/" } },
+        { "name": "Order Detail", "request": { "method": "GET", "url": "{{base_url}}/orders/{{order_id}}/" } },
+        { "name": "Track Order", "request": { "method": "GET", "url": "{{base_url}}/orders/{{order_id}}/track/" } },
+        { "name": "Cancel Order", "request": { "method": "POST", "url": "{{base_url}}/orders/{{order_id}}/cancel/" } },
+        { "name": "Download Invoice", "request": { "method": "GET", "url": "{{base_url}}/orders/{{order_id}}/invoice/" } },
+        { "name": "Admin: Update Order Status", "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "url": "{{base_url}}/orders/{{order_id}}/status/", "body": { "mode": "raw", "raw": "{\n  \"status\": \"shipped\",\n  \"tracking_number\": \"TRK123456\"\n}" } } }
+      ]
+    },
+    {
+      "name": "Payments",
+      "item": [
+        { "name": "Razorpay: Create Order", "request": { "method": "POST", "url": "{{base_url}}/payments/razorpay/create/{{order_id}}/" } },
+        { "name": "Razorpay: Verify Payment", "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "url": "{{base_url}}/payments/razorpay/verify/", "body": { "mode": "raw", "raw": "{\n  \"order_id\": \"{{order_id}}\",\n  \"razorpay_order_id\": \"\",\n  \"razorpay_payment_id\": \"\",\n  \"razorpay_signature\": \"\"\n}" } } },
+        { "name": "Stripe: Create Intent", "request": { "method": "POST", "url": "{{base_url}}/payments/stripe/create-intent/{{order_id}}/" } },
+        { "name": "Stripe: Confirm", "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "url": "{{base_url}}/payments/stripe/confirm/", "body": { "mode": "raw", "raw": "{\n  \"order_id\": \"{{order_id}}\",\n  \"payment_intent_id\": \"\"\n}" } } },
+        { "name": "UPI: Initiate", "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "url": "{{base_url}}/payments/upi/initiate/", "body": { "mode": "raw", "raw": "{\n  \"order_id\": \"{{order_id}}\",\n  \"upi_id\": \"jane@upi\"\n}" } } }
+      ]
+    },
+    {
+      "name": "Reviews & Q&A",
+      "item": [
+        { "name": "List Reviews for Product", "request": { "method": "GET", "url": "{{base_url}}/reviews/?product={{product_id}}" } },
+        { "name": "Create Review", "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "url": "{{base_url}}/reviews/", "body": { "mode": "raw", "raw": "{\n  \"product\": \"{{product_id}}\",\n  \"rating\": 5,\n  \"title\": \"Great product\",\n  \"comment\": \"Fresh and fast delivery.\"\n}" } } },
+        { "name": "List Questions", "request": { "method": "GET", "url": "{{base_url}}/questions/?product={{product_id}}" } },
+        { "name": "Ask Question", "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "url": "{{base_url}}/questions/", "body": { "mode": "raw", "raw": "{\n  \"product\": \"{{product_id}}\",\n  \"question\": \"Is this organic?\"\n}" } } }
+      ]
+    },
+    {
+      "name": "Admin Dashboard",
+      "item": [
+        { "name": "Summary", "request": { "method": "GET", "url": "{{base_url}}/dashboard/summary/" } },
+        { "name": "Revenue Analytics", "request": { "method": "GET", "url": "{{base_url}}/dashboard/analytics/revenue/?days=30" } },
+        { "name": "Sales Analytics", "request": { "method": "GET", "url": "{{base_url}}/dashboard/analytics/sales/" } },
+        { "name": "Customer Analytics", "request": { "method": "GET", "url": "{{base_url}}/dashboard/analytics/customers/" } },
+        { "name": "Inventory", "request": { "method": "GET", "url": "{{base_url}}/dashboard/inventory/" } },
+        { "name": "Low Stock Alerts", "request": { "method": "GET", "url": "{{base_url}}/dashboard/inventory/low-stock/?threshold=10" } },
+        { "name": "Export Orders CSV", "request": { "method": "GET", "url": "{{base_url}}/dashboard/export/orders.csv" } },
+        { "name": "Export Products CSV", "request": { "method": "GET", "url": "{{base_url}}/dashboard/export/products.csv" } }
+      ]
+    }
+  ]
+}
