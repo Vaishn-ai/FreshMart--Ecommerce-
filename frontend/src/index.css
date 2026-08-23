@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply bg-white dark:bg-gray-900 rounded-card shadow-card hover:shadow-card-hover transition-shadow duration-300;
+  }
+  .btn-primary {
+    @apply bg-primary text-white rounded-full px-6 py-3 font-medium transition-transform duration-200 hover:scale-[1.03] active:scale-95;
+  }
+}

@@ -1,0 +1,1307 @@
+[
+{
+  "model": "products.product",
+  "pk": "21775d86-0ea9-4d69-8ce6-adde556b7dfd",
+  "fields": {
+    "name": "Desi Ghee (Pure)",
+    "slug": "desi-ghee-pure",
+    "category": "7e8527b7-d5cc-477b-b553-7bd80c2df949",
+    "brand": "18f3910d-fec8-4bda-9c85-da52fa5db08e",
+    "description": "Amul Pure Ghee is made from fresh cream using traditional methods to provide rich aroma, authentic taste, and high nutritional value. It is suitable for cooking, frying, sweets, and everyday meals.",
+    "highlights": [
+      "Made from fresh cream",
+      "Rich aroma and authentic taste",
+      "100% Pure Cow Ghee",
+      "No added preservatives",
+      "Ideal for cooking and sweets",
+      "Rich source of vitamins A, D, E and K"
+    ],
+    "specifications": {
+      "Brand": "Amul",
+      "Product Type": "Pure Ghee",
+      "Container Type": "Pouch",
+      "Net Quantity": "1 L",
+      "Shelf Life": "9 Months",
+      "Country of Origin": "India",
+      "Storage": "Store in a cool and dry place"
+    },
+    "nutrition_facts": {
+      "Energy": "900 kcal",
+      "Protein": "0 g",
+      "Carbohydrates": "0 g",
+      "Total Fat": "100 g",
+      "Saturated Fat": "65 g",
+      "Trans Fat": "0 g",
+      "Cholesterol": "300 mg",
+      "Vitamin A": "Present"
+    },
+    "unit": "g",
+    "weight_or_size": "250gm",
+    "color": "Golden Yellow",
+    "mrp": "720.00",
+    "discount_price": "600.00",
+    "stock": 50,
+    "sku": "Organic-ghee-250gm",
+    "barcode": "890126201001",
+    "is_featured": true,
+    "is_flash_sale": true,
+    "flash_sale_ends_at": "2026-07-30T10:08:38Z",
+    "is_active": true,
+    "rating_avg": "4.90",
+    "rating_count": 3050,
+    "sold_count": 11200,
+    "created_at": "2026-07-30T10:12:19.065Z",
+    "updated_at": "2026-07-30T10:12:19.065Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "38b271c9-58e6-40e2-b919-07e9ce41810b",
+  "fields": {
+    "name": "Amul Taaza Milk",
+    "slug": "amul-taaza-milk",
+    "category": "7e8527b7-d5cc-477b-b553-7bd80c2df949",
+    "brand": "924cf8fa-ee55-458c-acac-32ecf90ac555",
+    "description": "Amul Taaza is a homogenized toned milk enriched with essential nutrients. It is ideal for drinking, making tea, coffee, desserts, and daily cooking. It delivers a rich taste while maintaining a lower fat content than full cream milk.",
+    "highlights": [
+      "Homogenized Toned Milk",
+      "Rich in Calcium",
+      "Good Source of Protein",
+      "Fresh and Hygienically Packed",
+      "Suitable for Daily Consumption",
+      "No Preservatives"
+    ],
+    "specifications": {
+      "Brand": "Amul",
+      "Type": "Toned Milk",
+      "Form": "Liquid",
+      "Storage": "Keep Refrigerated",
+      "Shelf Life": "2 Days",
+      "Country of Origin": "India",
+      "Packaging": "Plastic Pouch"
+    },
+    "nutrition_facts": {
+      "Energy": "58 kcal",
+      "Protein": "3.1 g",
+      "Carbohydrates": "4.8 g",
+      "Total Fat": "3.0 g",
+      "Calcium": "120 mg",
+      "Vitamin A": "Present",
+      "Vitamin D": "Present"
+    },
+    "unit": "pack",
+    "weight_or_size": "500gm",
+    "color": "Pure White",
+    "mrp": "32.00",
+    "discount_price": "30.00",
+    "stock": 94,
+    "sku": "FM-DAIRY-AMUL-TAAZA-500ML",
+    "barcode": "",
+    "is_featured": true,
+    "is_flash_sale": false,
+    "flash_sale_ends_at": "2026-07-30T08:23:15Z",
+    "is_active": true,
+    "rating_avg": "5.00",
+    "rating_count": 5,
+    "sold_count": 206,
+    "created_at": "2026-07-30T08:24:17.670Z",
+    "updated_at": "2026-07-30T08:25:24.610Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "4ae536bc-edb8-493e-97e4-31b95140a8ca",
+  "fields": {
+    "name": "Green Split Moong Dal",
+    "slug": "green-split-moong-dal",
+    "category": "6e1995a7-94ca-4f0c-b5af-6dbd4a38ac99",
+    "brand": "3410aa17-f161-46a3-bae5-bad84e592cff",
+    "description": "Green Split Moong Dal is made from premium-quality split green gram with skin. It is naturally rich in protein, dietary fiber, vitamins, and minerals. It is easy to cook and is perfect for preparing dal, khichdi, soups, curries, and other healthy Indian dishes.",
+    "highlights": [
+      "Premium quality green split moong dal",
+      "Rich in protein and dietary fiber",
+      "Easy to digest",
+      "Naturally processed and hygienically packed",
+      "No added preservatives",
+      "100% Vegetarian"
+    ],
+    "specifications": {
+      "Product Type": "Green Split Moong Dal",
+      "Net Quantity": "1 kg",
+      "Shelf Life": "12 Months",
+      "Country of Origin": "India",
+      "Storage": "Store in a cool and dry place in an airtight container"
+    },
+    "nutrition_facts": {
+      "Energy": "348 kcal",
+      "Protein": "24 g",
+      "Carbohydrates": "60 g",
+      "Total Fat": "1.2 g",
+      "Dietary Fiber": "16 g",
+      "Sugar": "2 g",
+      "Sodium": "15 mg"
+    },
+    "unit": "kg",
+    "weight_or_size": "1Kg",
+    "color": "Green & Yellow",
+    "mrp": "160.00",
+    "discount_price": "120.00",
+    "stock": 99,
+    "sku": "GREEN-SPLIT-MOONG-DAL-1KG",
+    "barcode": "",
+    "is_featured": true,
+    "is_flash_sale": false,
+    "flash_sale_ends_at": null,
+    "is_active": true,
+    "rating_avg": "4.50",
+    "rating_count": 500,
+    "sold_count": 54563,
+    "created_at": "2026-07-30T13:04:40.882Z",
+    "updated_at": "2026-07-30T13:04:40.882Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "5c044499-e03e-47e1-894e-3aabc51d7a1d",
+  "fields": {
+    "name": "Moong ( Green Gram)",
+    "slug": "moong-green-gram",
+    "category": "6e1995a7-94ca-4f0c-b5af-6dbd4a38ac99",
+    "brand": "3410aa17-f161-46a3-bae5-bad84e592cff",
+    "description": "Whole Green Gram (Whole Moong) is a premium-quality pulse known for its rich protein, fiber, vitamins, and minerals. It is commonly used to prepare sprouts, curries, dal, khichdi, soups, and other nutritious Indian dishes.",
+    "highlights": [
+      "Premium quality whole green gram",
+      "Rich in protein and dietary fiber",
+      "Ideal for sprouting",
+      "Naturally processed",
+      "No added preservatives",
+      "100% Vegetarian"
+    ],
+    "specifications": {
+      "Product Type": "Whole Green Gram",
+      "Net Quantity": "1 kg",
+      "Shelf Life": "12 Months",
+      "Country of Origin": "India",
+      "Storage": "Store in a cool and dry place in an airtight container"
+    },
+    "nutrition_facts": {
+      "Energy": "347 kcal",
+      "Protein": "24 g",
+      "Carbohydrates": "63 g",
+      "Total Fat": "1.2 g",
+      "Dietary Fiber": "16 g",
+      "Sugar": "2 g",
+      "Sodium": "15 mg"
+    },
+    "unit": "kg",
+    "weight_or_size": "1Kg",
+    "color": "Olive Green",
+    "mrp": "120.00",
+    "discount_price": "110.00",
+    "stock": 99,
+    "sku": "WHOLE-GREEN-GRAM-1KG",
+    "barcode": "",
+    "is_featured": false,
+    "is_flash_sale": false,
+    "flash_sale_ends_at": null,
+    "is_active": true,
+    "rating_avg": "4.30",
+    "rating_count": 8546,
+    "sold_count": 8886,
+    "created_at": "2026-07-30T13:02:23.636Z",
+    "updated_at": "2026-07-30T13:02:23.636Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "641ab6da-f1b2-44a9-af91-d26c9b848be7",
+  "fields": {
+    "name": "Bay Leaf (Tej Patta)",
+    "slug": "bay-leaf-tej-patta",
+    "category": "e2c70a9e-17f4-4e76-ad67-1dff1c3a41a4",
+    "brand": "6fd3af7b-a81e-49a7-a82a-b3d3b1b3b0d3",
+    "description": "Bay Leaf (Tej Patta) is a premium-quality aromatic spice widely used in Indian cooking. It imparts a mild, earthy flavor and pleasant aroma to biryani, pulao, curries, soups, gravies, and spice blends. It is an essential ingredient in many traditional recipes.",
+    "highlights": [
+      "Premium quality whole bay leaves",
+      "Natural aroma and rich flavour",
+      "Ideal for biryani, pulao and curries",
+      "Hygienically packed",
+      "No added preservatives",
+      "100% Natural"
+    ],
+    "specifications": {
+      "Product Type": "Whole Bay Leaf",
+      "Common Name": "Tej Patta",
+      "Net Quantity": "100 g",
+      "Shelf Life": "12 Months",
+      "Country of Origin": "India",
+      "Storage": "Store in a cool and dry place in an airtight container"
+    },
+    "nutrition_facts": {
+      "Energy": "313 kcal",
+      "Protein": "7.6 g",
+      "Carbohydrates": "75 g",
+      "Total Fat": "8.4 g",
+      "Dietary Fiber": "26 g",
+      "Sugar": "0 g",
+      "Sodium": "23 mg"
+    },
+    "unit": "pack",
+    "weight_or_size": "100g",
+    "color": "Olive Green",
+    "mrp": "80.00",
+    "discount_price": "75.00",
+    "stock": 120,
+    "sku": "BAY-LEAF-TEJ-PATTA-100G",
+    "barcode": "",
+    "is_featured": false,
+    "is_flash_sale": false,
+    "flash_sale_ends_at": null,
+    "is_active": true,
+    "rating_avg": "4.20",
+    "rating_count": 512,
+    "sold_count": 875,
+    "created_at": "2026-07-30T13:29:42.757Z",
+    "updated_at": "2026-07-30T13:29:42.757Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "6c1bbcc9-8f82-4964-853a-50d5590d042f",
+  "fields": {
+    "name": "Green Cardamom (Elaichi)",
+    "slug": "green-cardamom-elaichi",
+    "category": "e2c70a9e-17f4-4e76-ad67-1dff1c3a41a4",
+    "brand": "6fd3af7b-a81e-49a7-a82a-b3d3b1b3b0d3",
+    "description": "Green Cardamom (Elaichi) is a premium-quality aromatic spice known for its sweet fragrance and rich flavor. It is widely used in tea, desserts, sweets, biryani, curries, and traditional Indian recipes. Carefully selected and hygienically packed to preserve its natural freshness and aroma.",
+    "highlights": [
+      "Premium quality whole green cardamom",
+      "Naturally aromatic and flavourful",
+      "Ideal for tea, sweets, desserts and biryani",
+      "Rich in natural essential oils",
+      "Hygienically packed",
+      "100% Natural"
+    ],
+    "specifications": {
+      "Product Type": "Whole Green Cardamom",
+      "Common Name": "Elaichi",
+      "Net Quantity": "100 g",
+      "Shelf Life": "12 Months",
+      "Country of Origin": "India",
+      "Storage": "Store in a cool and dry place in an airtight container"
+    },
+    "nutrition_facts": {
+      "Energy": "311 kcal",
+      "Protein": "11 g",
+      "Carbohydrates": "68 g",
+      "Total Fat": "7 g",
+      "Dietary Fiber": "28 g",
+      "Sugar": "0 g",
+      "Sodium": "18 mg"
+    },
+    "unit": "pack",
+    "weight_or_size": "100g",
+    "color": "Natural Green",
+    "mrp": "650.00",
+    "discount_price": "620.00",
+    "stock": 97,
+    "sku": "GREEN-CARDAMOM-ELAICHI-100G",
+    "barcode": "",
+    "is_featured": false,
+    "is_flash_sale": false,
+    "flash_sale_ends_at": null,
+    "is_active": true,
+    "rating_avg": "4.30",
+    "rating_count": 100,
+    "sold_count": 458,
+    "created_at": "2026-07-30T13:33:40.761Z",
+    "updated_at": "2026-07-30T13:35:40.372Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "6efea56f-2738-4a10-9bdc-eaf4213dce36",
+  "fields": {
+    "name": "Suruchi Mirchi Powder",
+    "slug": "suruchi-mirchi-powder",
+    "category": "e2c70a9e-17f4-4e76-ad67-1dff1c3a41a4",
+    "brand": "4398a301-b9f7-4a9b-931c-8704f4175163",
+    "description": "Suruchi Mirchi Powder is made from carefully selected premium red chillies, finely ground to deliver vibrant color, rich aroma, and the perfect level of spiciness. It is ideal for enhancing the taste and appearance of everyday Indian dishes.",
+    "highlights": [
+      "Made from premium quality red chillies",
+      "Rich natural red color",
+      "Strong aroma and authentic taste",
+      "No added artificial colors",
+      "Finely ground for easy blending",
+      "100% Vegetarian"
+    ],
+    "specifications": {
+      "Brand": "Suruchi",
+      "Product Type": "Red Chilli Powder",
+      "Net Quantity": "200 g",
+      "Shelf Life": "12 Months",
+      "Country of Origin": "India",
+      "Storage": "Store in a cool and dry place in an airtight container"
+    },
+    "nutrition_facts": {
+      "Energy": "318 kcal",
+      "Protein": "12 g",
+      "Carbohydrates": "57 g",
+      "Total Fat": "17 g",
+      "Dietary Fiber": "27 g",
+      "Sugar": "10 g",
+      "Sodium": "30 mg"
+    },
+    "unit": "pack",
+    "weight_or_size": "200gm",
+    "color": "Deep Red",
+    "mrp": "150.00",
+    "discount_price": "90.00",
+    "stock": 148,
+    "sku": "SURUCHI-MIRCHI-200G",
+    "barcode": "",
+    "is_featured": false,
+    "is_flash_sale": false,
+    "flash_sale_ends_at": null,
+    "is_active": true,
+    "rating_avg": "5.00",
+    "rating_count": 52,
+    "sold_count": 8957,
+    "created_at": "2026-07-30T10:22:15.807Z",
+    "updated_at": "2026-07-30T10:22:15.807Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "8dc5f46c-4207-4249-85f4-7c1c98e823fb",
+  "fields": {
+    "name": "Haldiram's Halke Fulke Salted Potato Chips",
+    "slug": "haldirams-halke-fulke-salted-potato-chips",
+    "category": "2e6b5f24-e5e4-49e2-9283-5d0f0bfe6509",
+    "brand": "c67600e6-5a8d-487a-bef7-e99e19d08fd7",
+    "description": "Haldiram's Halke Fulke Salted Potato Chips are light, crispy, and delicious potato chips seasoned with the perfect amount of salt. Made from carefully selected potatoes, these crunchy chips are an ideal snack for tea time, parties, travel, and everyday munching.",
+    "highlights": [
+      "Light and crispy potato chips",
+      "Classic salted flavor",
+      "Made from quality potatoes",
+      "Crunchy and tasty snack",
+      "Perfect for parties and travel",
+      "100% Vegetarian"
+    ],
+    "specifications": {
+      "Brand": "Haldiram's",
+      "Product Type": "Salted Potato Chips",
+      "Flavor": "Salted",
+      "Net Quantity": "Available in multiple pack sizes",
+      "Shelf Life": "6 Months",
+      "Country of Origin": "India",
+      "Storage": "Store in a cool and dry place. Once opened, keep in an airtight container."
+    },
+    "nutrition_facts": {
+      "Energy": "540 kcal",
+      "Protein": "6 g",
+      "Carbohydrates": "53 g",
+      "Total Fat": "34 g",
+      "Saturated Fat": "12 g",
+      "Trans Fat": "0 g",
+      "Sugar": "1 g",
+      "Sodium": "550 mg"
+    },
+    "unit": "pack",
+    "weight_or_size": "18g",
+    "color": "Golden Yellow",
+    "mrp": "10.00",
+    "discount_price": "10.00",
+    "stock": 149,
+    "sku": "HALDIRAMS-HALKE-FULKE-18G",
+    "barcode": "",
+    "is_featured": true,
+    "is_flash_sale": false,
+    "flash_sale_ends_at": null,
+    "is_active": true,
+    "rating_avg": "4.70",
+    "rating_count": 420,
+    "sold_count": 523,
+    "created_at": "2026-07-30T13:14:42.989Z",
+    "updated_at": "2026-07-30T13:14:42.989Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "8f547d00-ff85-49b9-81f4-4b1a7de8a3d3",
+  "fields": {
+    "name": "Split Moong dal (Without skin)",
+    "slug": "split-moong-dal-without-skin",
+    "category": "6e1995a7-94ca-4f0c-b5af-6dbd4a38ac99",
+    "brand": "3410aa17-f161-46a3-bae5-bad84e592cff",
+    "description": "Suruchi Moong Dal is made from premium-quality split yellow moong beans. It is rich in protein, easy to digest, and perfect for preparing dal, khichdi, soups, curries, and healthy everyday meals.",
+    "highlights": [
+      "Premium quality split yellow moong dal",
+      "Rich in protein and dietary fiber",
+      "Easy to digest",
+      "Naturally processed and hygienically packed",
+      "No artificial colors or preservatives",
+      "100% Vegetarian"
+    ],
+    "specifications": {
+      "Brand": "Suruchi",
+      "Product Type": "Split Yellow Moong Dal",
+      "Net Quantity": "1 kg",
+      "Shelf Life": "12 Months",
+      "Country of Origin": "India",
+      "Storage": "Store in a cool and dry place in an airtight container"
+    },
+    "nutrition_facts": {
+      "Energy": "347 kcal",
+      "Protein": "24 g",
+      "Carbohydrates": "63 g",
+      "Total Fat": "1.2 g",
+      "Dietary Fiber": "16 g",
+      "Sugar": "2 g",
+      "Sodium": "15 mg"
+    },
+    "unit": "kg",
+    "weight_or_size": "1Kg",
+    "color": "Yellow",
+    "mrp": "145.00",
+    "discount_price": "140.00",
+    "stock": 99,
+    "sku": "MOONGDAL-1KG",
+    "barcode": "",
+    "is_featured": true,
+    "is_flash_sale": false,
+    "flash_sale_ends_at": null,
+    "is_active": true,
+    "rating_avg": "4.80",
+    "rating_count": 1860,
+    "sold_count": 7401,
+    "created_at": "2026-07-30T12:58:53.733Z",
+    "updated_at": "2026-07-30T13:09:15.599Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "a867db2f-974d-4045-9882-0110767aa519",
+  "fields": {
+    "name": "Haldiram's Halke Fulke Chatpata Chilli Potato Chips",
+    "slug": "haldirams-halke-fulke-chatpata-chilli-potato-chips",
+    "category": "2e6b5f24-e5e4-49e2-9283-5d0f0bfe6509",
+    "brand": "c67600e6-5a8d-487a-bef7-e99e19d08fd7",
+    "description": "Haldiram's Halke Fulke Chatpata Chilli Potato Chips are light, crunchy ridged potato chips seasoned with a delicious chatpata chilli flavor. They are perfect for tea-time snacks, travel, parties, and everyday munching.",
+    "highlights": [
+      "Light and crispy ridged potato chips",
+      "Spicy chatpata chilli flavour",
+      "Made from quality potatoes",
+      "Crunchy texture",
+      "Perfect for snacking anytime",
+      "100% Vegetarian"
+    ],
+    "specifications": {
+      "Brand": "Haldiram's",
+      "Product Type": "Potato Chips",
+      "Flavor": "Chatpata Chilli",
+      "Net Quantity": "Available in multiple pack sizes",
+      "Shelf Life": "6 Months",
+      "Country of Origin": "India",
+      "Storage": "Store in a cool and dry place. Consume soon after opening."
+    },
+    "nutrition_facts": {
+      "Energy": "545 kcal",
+      "Protein": "6.5 g",
+      "Carbohydrates": "54 g",
+      "Total Fat": "34 g",
+      "Saturated Fat": "13 g",
+      "Trans Fat": "0 g",
+      "Sugar": "2 g",
+      "Sodium": "620 mg"
+    },
+    "unit": "pack",
+    "weight_or_size": "18g",
+    "color": "Golden Yellow",
+    "mrp": "10.00",
+    "discount_price": "10.00",
+    "stock": 484,
+    "sku": "HALDIRAMS-HALKE-FULKE-CHATPATA-12G",
+    "barcode": "",
+    "is_featured": false,
+    "is_flash_sale": false,
+    "flash_sale_ends_at": null,
+    "is_active": true,
+    "rating_avg": "4.30",
+    "rating_count": 155,
+    "sold_count": 45,
+    "created_at": "2026-07-30T13:19:33.644Z",
+    "updated_at": "2026-07-30T13:19:33.644Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "cb805e29-81bd-48ba-bebe-ae9fc9da7134",
+  "fields": {
+    "name": "Suruchi Haldi Powder",
+    "slug": "suruchi-haldi-powder",
+    "category": "e2c70a9e-17f4-4e76-ad67-1dff1c3a41a4",
+    "brand": "4398a301-b9f7-4a9b-931c-8704f4175163",
+    "description": "Suruchi Haldi Powder is made from carefully selected turmeric roots to deliver a rich color, natural aroma, and authentic taste. It is perfect for daily cooking and enhances the flavor and appearance of a variety of Indian dishes.",
+    "highlights": [
+      "Premium quality turmeric powder",
+      "Natural color and aroma",
+      "Finely ground for easy mixing",
+      "No artificial colors or preservatives",
+      "Suitable for everyday cooking",
+      "100% Vegetarian"
+    ],
+    "specifications": {
+      "Brand": "Suruchi",
+      "Product Type": "Turmeric Powder",
+      "Net Quantity": "200 g",
+      "Shelf Life": "12 Months",
+      "Country of Origin": "India",
+      "Storage": "Store in a cool and dry place in an airtight container"
+    },
+    "nutrition_facts": {
+      "Energy": "312 kcal",
+      "Protein": "9.7 g",
+      "Carbohydrates": "67.1 g",
+      "Total Fat": "3.3 g",
+      "Dietary Fiber": "22.7 g",
+      "Sugar": "3.2 g",
+      "Sodium": "38 mg"
+    },
+    "unit": "pack",
+    "weight_or_size": "200 gm",
+    "color": "Bright Yellow",
+    "mrp": "70.00",
+    "discount_price": "65.00",
+    "stock": 98,
+    "sku": "SURUCHI-HALDI-200G",
+    "barcode": "",
+    "is_featured": true,
+    "is_flash_sale": false,
+    "flash_sale_ends_at": null,
+    "is_active": true,
+    "rating_avg": "4.70",
+    "rating_count": 956,
+    "sold_count": 4202,
+    "created_at": "2026-07-30T10:16:31.525Z",
+    "updated_at": "2026-07-30T10:16:31.525Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "ccddb328-8cb5-491d-b836-ea551606f66d",
+  "fields": {
+    "name": "Cloves (Laung)",
+    "slug": "cloves-laung",
+    "category": "e2c70a9e-17f4-4e76-ad67-1dff1c3a41a4",
+    "brand": "6fd3af7b-a81e-49a7-a82a-b3d3b1b3b0d3",
+    "description": "Cloves (Laung) are premium-quality dried flower buds known for their strong aroma and warm, spicy flavor. They are widely used in Indian cooking, biryani, curries, masalas, desserts, tea, and traditional herbal preparations.",
+    "highlights": [
+      "Premium quality whole cloves",
+      "Rich aroma and strong flavour",
+      "Ideal for curries, biryani and spice blends",
+      "Naturally dried and hygienically packed",
+      "No added preservatives",
+      "100% Natural"
+    ],
+    "specifications": {
+      "Product Type": "Whole Cloves",
+      "Common Name": "Laung",
+      "Net Quantity": "100 g",
+      "Shelf Life": "12 Months",
+      "Country of Origin": "India",
+      "Storage": "Store in a cool and dry place in an airtight container"
+    },
+    "nutrition_facts": {
+      "Energy": "274 kcal",
+      "Protein": "6 g",
+      "Carbohydrates": "66 g",
+      "Total Fat": "13 g",
+      "Dietary Fiber": "34 g",
+      "Sugar": "2.4 g",
+      "Sodium": "277 mg"
+    },
+    "unit": "pack",
+    "weight_or_size": "100g",
+    "color": "Dark Brown",
+    "mrp": "280.00",
+    "discount_price": "265.00",
+    "stock": 100,
+    "sku": "CLOVES-LAUNG-100G",
+    "barcode": "",
+    "is_featured": false,
+    "is_flash_sale": false,
+    "flash_sale_ends_at": null,
+    "is_active": true,
+    "rating_avg": "4.00",
+    "rating_count": 512,
+    "sold_count": 100,
+    "created_at": "2026-07-30T13:31:29.289Z",
+    "updated_at": "2026-07-30T13:31:29.289Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "d96d5e62-2be3-4f2c-a933-3b0bc09c5659",
+  "fields": {
+    "name": "Sharbati Gehu (Premium Wheat)",
+    "slug": "sharbati-gehu-premium-wheat",
+    "category": "9bb70655-4dd2-49fb-baad-7499f753d1b0",
+    "brand": "a67855b0-148d-4d9e-898e-ec8da85bbe62",
+    "description": "Suruchi Sharbati Gehu is premium-quality wheat sourced from the fertile regions of Madhya Pradesh. Known for its golden grains, natural sweetness, and soft texture, it is ideal for making soft rotis, chapatis, parathas, and other Indian breads.",
+    "highlights": [
+      "Premium Sharbati wheat",
+      "Naturally sweet taste",
+      "Produces soft and fluffy rotis",
+      "Carefully cleaned and hygienically packed",
+      "Rich in dietary fiber",
+      "100% Vegetarian"
+    ],
+    "specifications": {
+      "Brand": "Suruchi",
+      "Product Type": "Whole Wheat",
+      "Variety": "Sharbati Wheat",
+      "Net Quantity": "10 kg",
+      "Shelf Life": "12 Months",
+      "Country of Origin": "India",
+      "Storage": "Store in a cool, dry place away from moisture"
+    },
+    "nutrition_facts": {
+      "Energy": "340 kcal",
+      "Protein": "12.5 g",
+      "Carbohydrates": "72 g",
+      "Total Fat": "2 g",
+      "Dietary Fiber": "10.5 g",
+      "Sugar": "0.5 g",
+      "Sodium": "2 mg"
+    },
+    "unit": "kg",
+    "weight_or_size": "5Kg",
+    "color": "Golden Brown",
+    "mrp": "180.00",
+    "discount_price": "175.00",
+    "stock": 100,
+    "sku": "SURUCHI-SHARBATI-GEHU-10KG",
+    "barcode": "",
+    "is_featured": true,
+    "is_flash_sale": false,
+    "flash_sale_ends_at": null,
+    "is_active": true,
+    "rating_avg": "4.30",
+    "rating_count": 555,
+    "sold_count": 5248,
+    "created_at": "2026-07-30T12:52:59.633Z",
+    "updated_at": "2026-07-30T12:52:59.633Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "e18bb9fe-241c-460e-b4bb-efcdbc62ccf4",
+  "fields": {
+    "name": "Cinnamon (Dalchini)",
+    "slug": "cinnamon-dalchini",
+    "category": "e2c70a9e-17f4-4e76-ad67-1dff1c3a41a4",
+    "brand": "6fd3af7b-a81e-49a7-a82a-b3d3b1b3b0d3",
+    "description": "Cinnamon (Dalchini) is a premium-quality aromatic spice obtained from the inner bark of cinnamon trees. It adds a warm, sweet flavor and pleasant aroma to curries, desserts, tea, coffee, biryani, and baked foods. It is an essential ingredient in Indian and international cuisines.",
+    "highlights": [
+      "Premium quality whole cinnamon sticks",
+      "Rich aroma and natural flavour",
+      "Ideal for Indian and international recipes",
+      "Perfect for tea, desserts and curries",
+      "No added preservatives",
+      "100% Natural"
+    ],
+    "specifications": {
+      "Product Type": "Whole Cinnamon",
+      "Common Name": "Dalchini",
+      "Net Quantity": "100 g",
+      "Shelf Life": "12 Months",
+      "Country of Origin": "India",
+      "Storage": "Store in a cool, dry place in an airtight container"
+    },
+    "nutrition_facts": {
+      "Energy": "247 kcal",
+      "Protein": "4 g",
+      "Carbohydrates": "81 g",
+      "Total Fat": "1.2 g",
+      "Dietary Fiber": "53 g",
+      "Sugar": "2.2 g",
+      "Sodium": "10 mg"
+    },
+    "unit": "pack",
+    "weight_or_size": "100g",
+    "color": "Brown",
+    "mrp": "120.00",
+    "discount_price": "110.00",
+    "stock": 100,
+    "sku": "CINNAMON-DALCHINI-100G",
+    "barcode": "",
+    "is_featured": true,
+    "is_flash_sale": false,
+    "flash_sale_ends_at": null,
+    "is_active": true,
+    "rating_avg": "4.20",
+    "rating_count": 521,
+    "sold_count": 122,
+    "created_at": "2026-07-30T13:27:51.423Z",
+    "updated_at": "2026-07-30T13:27:51.424Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": "01f5d18c-0d0e-4440-b6f5-afef33c487c5",
+  "fields": {
+    "product": "6c1bbcc9-8f82-4964-853a-50d5590d042f",
+    "image": "products/ChatGPT_Image_Jul_30_2026_07_01_50_PM.png",
+    "alt_text": "Green Cardamom",
+    "is_primary": false,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": "0728b325-20c8-4bb6-828d-c07a828a0a82",
+  "fields": {
+    "product": "8f547d00-ff85-49b9-81f4-4b1a7de8a3d3",
+    "image": "products/ChatGPT_Image_Jul_30_2026_06_28_19_PM.png",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": "1357f481-046e-4c31-a770-a90ec9734fc4",
+  "fields": {
+    "product": "d96d5e62-2be3-4f2c-a933-3b0bc09c5659",
+    "image": "products/ChatGPT_Image_Jul_30_2026_06_22_29_PM.png",
+    "alt_text": "Sharbati Gehu",
+    "is_primary": false,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": "138618fb-81d8-4412-bba6-fd504f0782e1",
+  "fields": {
+    "product": "a867db2f-974d-4045-9882-0110767aa519",
+    "image": "products/ChatGPT_Image_Jul_30_2026_06_49_20_PM.png",
+    "alt_text": "Haldiram chips",
+    "is_primary": false,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": "62104cca-8eec-40a8-8753-e0f347137a78",
+  "fields": {
+    "product": "8dc5f46c-4207-4249-85f4-7c1c98e823fb",
+    "image": "products/ChatGPT_Image_Jul_30_2026_06_41_08_PM.png",
+    "alt_text": "Haldiram chips",
+    "is_primary": false,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": "63cce491-7dfd-44dd-aced-ead2af47ae20",
+  "fields": {
+    "product": "5c044499-e03e-47e1-894e-3aabc51d7a1d",
+    "image": "products/ChatGPT_Image_Jul_30_2026_06_28_22_PM.png",
+    "alt_text": "Moong Dal",
+    "is_primary": false,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": "650d0e5b-fa43-46bf-98c4-710b5060737c",
+  "fields": {
+    "product": "4ae536bc-edb8-493e-97e4-31b95140a8ca",
+    "image": "products/ChatGPT_Image_Jul_30_2026_06_34_22_PM.png",
+    "alt_text": "Moong dal",
+    "is_primary": false,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": "738581a2-1236-4538-b673-742bf571bc1a",
+  "fields": {
+    "product": "e18bb9fe-241c-460e-b4bb-efcdbc62ccf4",
+    "image": "products/ChatGPT_Image_Jul_30_2026_06_57_12_PM.png",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": "7f8e5481-fda6-4f6f-89f6-3061c9c88c75",
+  "fields": {
+    "product": "6efea56f-2738-4a10-9bdc-eaf4213dce36",
+    "image": "products/images_2.jpg",
+    "alt_text": "Suruchi Mirchi Powder 200 g",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": "ab776bb4-5cec-4b5f-83f0-26c39e35343a",
+  "fields": {
+    "product": "cb805e29-81bd-48ba-bebe-ae9fc9da7134",
+    "image": "products/7bab8f91-b46e-47b7-9c50-b2f691e67ccc.png",
+    "alt_text": "Classic Turmaric Powder",
+    "is_primary": false,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": "d4e7aadd-bb9f-4b58-9ffa-d0d518d172fc",
+  "fields": {
+    "product": "641ab6da-f1b2-44a9-af91-d26c9b848be7",
+    "image": "products/ChatGPT_Image_Jul_30_2026_06_57_22_PM.png",
+    "alt_text": "Bay Leaf",
+    "is_primary": false,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": "f4992d84-184a-466d-af1e-cfc267013be3",
+  "fields": {
+    "product": "21775d86-0ea9-4d69-8ce6-adde556b7dfd",
+    "image": "products/5d1b8dd2-57f2-467e-befe-b3b2397e019e.png",
+    "alt_text": "Desi Ghee",
+    "is_primary": false,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": "fa6d6d97-78f0-4909-aae6-e186a73fccb2",
+  "fields": {
+    "product": "38b271c9-58e6-40e2-b919-07e9ce41810b",
+    "image": "products/ChatGPT_Image_Jul_27_2026_04_55_27_PM.png",
+    "alt_text": "Amul Fresh Milk",
+    "is_primary": false,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": "fb5a4282-ce7a-4c50-8296-b09ecd305ab0",
+  "fields": {
+    "product": "ccddb328-8cb5-491d-b836-ea551606f66d",
+    "image": "products/ChatGPT_Image_Jul_30_2026_06_59_55_PM.png",
+    "alt_text": "Clove",
+    "is_primary": false,
+    "order": 0
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": "13e035a7-8284-4a81-9d22-e7741ec930ed",
+  "fields": {
+    "product": "6c1bbcc9-8f82-4964-853a-50d5590d042f",
+    "name": "25g",
+    "sku": "GREEN-CARDAMOM-25G",
+    "mrp": "180.00",
+    "discount_price": "170.00",
+    "stock": 150,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": "984fa0a6-7d17-4b70-b443-50945a96d349",
+  "fields": {
+    "product": "6c1bbcc9-8f82-4964-853a-50d5590d042f",
+    "name": "50g",
+    "sku": "GREEN-CARDAMOM-50G",
+    "mrp": "340.00",
+    "discount_price": "325.00",
+    "stock": 100,
+    "is_active": true
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": "9c7da67d-aaca-42a8-b8e8-7c7c31f5567d",
+  "fields": {
+    "product": "6c1bbcc9-8f82-4964-853a-50d5590d042f",
+    "name": "250g",
+    "sku": "GREEN-CARDAMOM-250G",
+    "mrp": "1550.00",
+    "discount_price": "1490.00",
+    "stock": 25,
+    "is_active": true
+  }
+},
+{
+  "model": "products.recentlyviewed",
+  "pk": "619d133e-7d6b-4386-8c5a-b3c69ef1d98f",
+  "fields": {
+    "user": [
+      "vaishnavi@gmail.com"
+    ],
+    "product": "6efea56f-2738-4a10-9bdc-eaf4213dce36",
+    "viewed_at": "2026-07-30T15:09:15.900Z"
+  }
+},
+{
+  "model": "products.recentlyviewed",
+  "pk": "6cb43f79-4d8a-4505-8763-8b9313a6a9f6",
+  "fields": {
+    "user": [
+      "vaishnavi@gmail.com"
+    ],
+    "product": "4ae536bc-edb8-493e-97e4-31b95140a8ca",
+    "viewed_at": "2026-07-30T13:53:07.108Z"
+  }
+},
+{
+  "model": "products.recentlyviewed",
+  "pk": "6fef7692-c1a7-4f9e-ae40-97d8a24cde89",
+  "fields": {
+    "user": [
+      "vaishnavi@gmail.com"
+    ],
+    "product": "6c1bbcc9-8f82-4964-853a-50d5590d042f",
+    "viewed_at": "2026-07-30T13:35:52.267Z"
+  }
+},
+{
+  "model": "products.recentlyviewed",
+  "pk": "7dd5c8ef-df8a-45ab-899f-63c87b85e386",
+  "fields": {
+    "user": [
+      "vaishnavi@gmail.com"
+    ],
+    "product": "38b271c9-58e6-40e2-b919-07e9ce41810b",
+    "viewed_at": "2026-07-30T13:15:45.480Z"
+  }
+},
+{
+  "model": "products.recentlyviewed",
+  "pk": "8477f0f2-ac6a-4811-bedd-c71d8925ad57",
+  "fields": {
+    "user": [
+      "vaishnavi@gmail.com"
+    ],
+    "product": "8f547d00-ff85-49b9-81f4-4b1a7de8a3d3",
+    "viewed_at": "2026-07-30T13:08:33.548Z"
+  }
+},
+{
+  "model": "products.recentlyviewed",
+  "pk": "b648889d-c20b-4c9a-8409-6649c85b3852",
+  "fields": {
+    "user": [
+      "vaishnavi@gmail.com"
+    ],
+    "product": "cb805e29-81bd-48ba-bebe-ae9fc9da7134",
+    "viewed_at": "2026-07-30T12:35:54.575Z"
+  }
+},
+{
+  "model": "products.searchlog",
+  "pk": "11388aa6-c522-4e77-a2fc-06a7a70b5246",
+  "fields": {
+    "user": [
+      "vaishnavi@gmail.com"
+    ],
+    "query": "g",
+    "result_count": 14,
+    "created_at": "2026-07-30T15:08:54.905Z"
+  }
+},
+{
+  "model": "products.searchlog",
+  "pk": "23ab066f-f00c-446c-9acb-fc32022c50b3",
+  "fields": {
+    "user": [
+      "vaishnavi@gmail.com"
+    ],
+    "query": "ghee",
+    "result_count": 1,
+    "created_at": "2026-07-30T15:08:52.735Z"
+  }
+},
+{
+  "model": "products.searchlog",
+  "pk": "2e022d10-9dc2-4299-8b60-14b152e4b1aa",
+  "fields": {
+    "user": [
+      "vaishnavi@gmail.com"
+    ],
+    "query": "gr",
+    "result_count": 7,
+    "created_at": "2026-07-30T15:09:12.669Z"
+  }
+},
+{
+  "model": "products.searchlog",
+  "pk": "5f3b6497-c419-4c81-baf1-007fb1d5636a",
+  "fields": {
+    "user": [
+      "vaishnavi@gmail.com"
+    ],
+    "query": "green",
+    "result_count": 3,
+    "created_at": "2026-07-30T15:09:07.036Z"
+  }
+},
+{
+  "model": "products.searchlog",
+  "pk": "5fb3a817-0c06-40e8-af30-580a9d85f5b4",
+  "fields": {
+    "user": [
+      "vaishnavi@gmail.com"
+    ],
+    "query": "gr",
+    "result_count": 7,
+    "created_at": "2026-07-30T15:09:01.492Z"
+  }
+},
+{
+  "model": "products.searchlog",
+  "pk": "d22f179c-da26-4e06-88a0-1a6bcd0fdbb1",
+  "fields": {
+    "user": [
+      "vaishnavi@gmail.com"
+    ],
+    "query": "gree",
+    "result_count": 3,
+    "created_at": "2026-07-30T15:09:04.702Z"
+  }
+},
+{
+  "model": "products.searchlog",
+  "pk": "fd577723-5d68-49ce-80b5-f0f255872894",
+  "fields": {
+    "user": [
+      "vaishnavi@gmail.com"
+    ],
+    "query": "gre",
+    "result_count": 5,
+    "created_at": "2026-07-30T15:09:09.758Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": "2e6b5f24-e5e4-49e2-9283-5d0f0bfe6509",
+  "fields": {
+    "name": "Haldiram's Wafers",
+    "slug": "haldirams-wafers",
+    "parent": null,
+    "image": "categories/ChatGPT_Image_Jul_30_2026_06_36_45_PM.png",
+    "is_featured": false,
+    "is_active": true,
+    "order": 0,
+    "created_at": "2026-07-30T13:06:56.350Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": "6e1995a7-94ca-4f0c-b5af-6dbd4a38ac99",
+  "fields": {
+    "name": "Pulse And Dals",
+    "slug": "pulse-and-dals",
+    "parent": null,
+    "image": "categories/beans-and-beans-in-a-bowl-vector.jpg",
+    "is_featured": true,
+    "is_active": true,
+    "order": 0,
+    "created_at": "2026-07-30T12:56:23.443Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": "779e9087-fde9-4ee9-baa9-8cc303309bdd",
+  "fields": {
+    "name": "Flours",
+    "slug": "flours",
+    "parent": null,
+    "image": "categories/ChatGPT_Image_Jul_27_2026_04_19_15_PM.png",
+    "is_featured": true,
+    "is_active": true,
+    "order": 0,
+    "created_at": "2026-07-30T08:19:46.377Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": "7e8527b7-d5cc-477b-b553-7bd80c2df949",
+  "fields": {
+    "name": "Dairy Products",
+    "slug": "dairy-products",
+    "parent": null,
+    "image": "categories/ChatGPT_Image_Jul_27_2026_04_16_11_PM.png",
+    "is_featured": true,
+    "is_active": true,
+    "order": 0,
+    "created_at": "2026-07-30T08:19:32.055Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": "9bb70655-4dd2-49fb-baad-7499f753d1b0",
+  "fields": {
+    "name": "Grains",
+    "slug": "grains",
+    "parent": null,
+    "image": "categories/ChatGPT_Image_Feb_21_2026_07_38_07_PM.png",
+    "is_featured": false,
+    "is_active": true,
+    "order": 0,
+    "created_at": "2026-07-30T12:44:42.707Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": "e2c70a9e-17f4-4e76-ad67-1dff1c3a41a4",
+  "fields": {
+    "name": "Indian Spices",
+    "slug": "indian-spices",
+    "parent": null,
+    "image": "categories/ChatGPT_Image_Jul_27_2026_04_19_51_PM.png",
+    "is_featured": true,
+    "is_active": true,
+    "order": 0,
+    "created_at": "2026-07-30T08:20:00.100Z"
+  }
+},
+{
+  "model": "categories.brand",
+  "pk": "092fd7e6-abb0-4e34-ba26-6b00e96ce55f",
+  "fields": {
+    "name": "Parle",
+    "slug": "parle",
+    "logo": "brands/Screenshot_2026-07-30_152339.png",
+    "is_active": true
+  }
+},
+{
+  "model": "categories.brand",
+  "pk": "0d07e147-6db2-4486-a9c4-f3a4b5f305b8",
+  "fields": {
+    "name": "Red Label",
+    "slug": "red-label",
+    "logo": "brands/Screenshot_2026-07-30_152748.png",
+    "is_active": true
+  }
+},
+{
+  "model": "categories.brand",
+  "pk": "18f3910d-fec8-4bda-9c85-da52fa5db08e",
+  "fields": {
+    "name": "Natural & Organic",
+    "slug": "natural-organic",
+    "logo": "brands/Screenshot_2026-07-30_153607.png",
+    "is_active": true
+  }
+},
+{
+  "model": "categories.brand",
+  "pk": "3410aa17-f161-46a3-bae5-bad84e592cff",
+  "fields": {
+    "name": "Pulse And Dals",
+    "slug": "pulse-and-dals",
+    "logo": "brands/pulse.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "categories.brand",
+  "pk": "3a9cabe3-dc9a-4ac1-9400-d729f4f5dd59",
+  "fields": {
+    "name": "Patanjali",
+    "slug": "patanjali",
+    "logo": "brands/Screenshot_2026-07-30_152546.png",
+    "is_active": true
+  }
+},
+{
+  "model": "categories.brand",
+  "pk": "4398a301-b9f7-4a9b-931c-8704f4175163",
+  "fields": {
+    "name": "Suruchi",
+    "slug": "suruchi",
+    "logo": "brands/f6f5c30fe91270a1619028fd6dcaaa28.w1100.h1100.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "categories.brand",
+  "pk": "6fd3af7b-a81e-49a7-a82a-b3d3b1b3b0d3",
+  "fields": {
+    "name": "Indian Spices",
+    "slug": "indian-spices",
+    "logo": "brands/Screenshot_2026-07-30_185433.png",
+    "is_active": true
+  }
+},
+{
+  "model": "categories.brand",
+  "pk": "78988cda-3bed-437f-bf79-ae7fbbf15a6f",
+  "fields": {
+    "name": "Hindustan Unilever (HUL)",
+    "slug": "hindustan-unilever-hul",
+    "logo": "brands/Screenshot_2026-07-30_152703.png",
+    "is_active": true
+  }
+},
+{
+  "model": "categories.brand",
+  "pk": "7d29bd42-44a1-4814-868f-97f1169aa458",
+  "fields": {
+    "name": "Aashirwad",
+    "slug": "aashirwad",
+    "logo": "brands/Screenshot_2026-07-27_161214.png",
+    "is_active": true
+  }
+},
+{
+  "model": "categories.brand",
+  "pk": "924cf8fa-ee55-458c-acac-32ecf90ac555",
+  "fields": {
+    "name": "Amul",
+    "slug": "amul",
+    "logo": "brands/Screenshot_2026-07-27_160913.png",
+    "is_active": true
+  }
+},
+{
+  "model": "categories.brand",
+  "pk": "a67855b0-148d-4d9e-898e-ec8da85bbe62",
+  "fields": {
+    "name": "Grains",
+    "slug": "grains",
+    "logo": "brands/Screenshot_2026-07-30_181214.png",
+    "is_active": true
+  }
+},
+{
+  "model": "categories.brand",
+  "pk": "bb880c00-29c3-4e68-a52d-d91527c3f270",
+  "fields": {
+    "name": "Scoops",
+    "slug": "scoops",
+    "logo": "brands/Screenshot_2026-07-27_161107.png",
+    "is_active": true
+  }
+},
+{
+  "model": "categories.brand",
+  "pk": "c67600e6-5a8d-487a-bef7-e99e19d08fd7",
+  "fields": {
+    "name": "Haldiram's",
+    "slug": "haldirams",
+    "logo": "brands/Screenshot_2026-07-30_152444.png",
+    "is_active": true
+  }
+}
+]

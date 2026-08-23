@@ -1,0 +1,15 @@
+# This file is served as-is by Vite during local frontend dev (npm run dev / npm run preview).
+#
+# In production, the reverse-proxy nginx config (deploy/nginx/default.conf) routes
+# /robots.txt and /sitemap.xml to the Django backend instead, which generates a
+# real sitemap from the live product/category catalog (see backend/config/sitemaps.py).
+# This static file is just a safe local fallback so `npm run dev` doesn't 404 on it.
+
+User-agent: *
+Allow: /
+Disallow: /cart
+Disallow: /checkout
+Disallow: /orders
+Disallow: /profile
+
+Sitemap: http://localhost:8000/sitemap.xml
