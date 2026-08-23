@@ -212,12 +212,8 @@ if DEBUG:
 else:
     CACHES = {
         "default": {
-            "BACKEND": "django_redis.cache.RedisCache",
-            "LOCATION": REDIS_URL,
-            "OPTIONS": {
-                "CLIENT_CLASS": "django_redis.client.DefaultClient",
-                "IGNORE_EXCEPTIONS": True,
-            },
+            "BACKEND": "django.core.cache.backends.locmem.LocMemCache",
+            "LOCATION": "freshmart-cache",
         }
     }
 DJANGO_REDIS_IGNORE_EXCEPTIONS = True
