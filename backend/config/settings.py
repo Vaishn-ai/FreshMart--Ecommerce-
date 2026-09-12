@@ -18,7 +18,7 @@ SECRET_KEY = config("SECRET_KEY", default="dev-insecure-key-change-me")
 # Defaults to True so the project runs out of the box with no .env file.
 # Set DEBUG=False (and configure ALLOWED_HOSTS / SECRET_KEY properly) for production.
 DEBUG = config("DEBUG", default=True, cast=bool)
-ALLOWED_HOSTS = ["freshmart-ecommerce-8nrz.onrender.com"]
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 INSTALLED_APPS = [
     "django.contrib.admin",

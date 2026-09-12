@@ -5,8 +5,7 @@ import axios from "axios";
 // runs elsewhere. Keep this http:// for local dev — the Django dev server does not
 // speak TLS, and pointing this at an https:// URL will surface as an
 // ERR_SSL_PROTOCOL_ERROR / failed CORS preflight in the browser.
-const BASE_URL = 'VITE_API_URL=https://freshmart-ecommerce-8nrz.onrender.com'
-
+const BASE_URL = import.meta.env.VITE_API_URL;
 const api = axios.create({ baseURL: BASE_URL });
 
 api.interceptors.request.use((config) => {
