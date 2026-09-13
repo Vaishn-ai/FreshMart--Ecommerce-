@@ -179,7 +179,7 @@ SIMPLE_JWT = {
 # API must allow whichever one the browser is actually using or every preflight fails.
 CORS_ALLOWED_ORIGINS = config(
     "CORS_ALLOWED_ORIGINS",
-    default="https://freshmart-frontend-0p6f.onrender.com",
+    default="https://freshmart-ecommerce-pied.vercel.app",
     cast=Csv(),
 )
 CORS_ALLOW_CREDENTIALS = True
