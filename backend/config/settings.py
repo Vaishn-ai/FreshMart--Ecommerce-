@@ -11,6 +11,7 @@ True -- which you should only do once the app is actually served over HTTPS
 from pathlib import Path
 from datetime import timedelta
 from decouple import config, Csv
+import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -189,8 +190,9 @@ CORS_ALLOW_CREDENTIALS = True
 # frontend and backend under (see deploy/nginx/default.conf).
 FRONTEND_URL = config("FRONTEND_URL", default="http://localhost:5173")
 
-# --- Redis / Celery ---
-REDIS_URL = config("REDIS_URL", default="redis://localhost:6379/0")
+
+
+REDIS_URL = os.environ.get("REDIS_URL", "redis://localhost:6379/0")
 
 # In DEBUG, use Django's built-in in-memory cache so local dev never depends on a
 # running Redis server. This is what was actually causing the ConnectionError /
