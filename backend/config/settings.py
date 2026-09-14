@@ -201,23 +201,13 @@ REDIS_URL = os.environ.get("REDIS_URL", "redis://localhost:6379/0")
 # consistently honored across django-redis versions, so it's not something to rely on
 # for local dev. In production (DEBUG=False), Redis is used as configured, with
 # IGNORE_EXCEPTIONS kept as a safety net so a Redis blip doesn't take the API down.
-if DEBUG:
-    CACHES = {
-        "default": {
-            "BACKEND": "django.core.cache.backends.locmem.LocMemCache",
-        }
+CACHES = {
+    "default": {
+        "BACKEND": "django.core.cache.backends.locmem.LocMemCache",
+        "LOCATION": "freshmart-cache",
     }
-else:
-    CACHES = {
-        "default": {
-            "BACKEND": "django_redis.cache.RedisCache",
-            "LOCATION": REDIS_URL,
-            "OPTIONS": {
-                "CLIENT_CLASS": "django_redis.client.DefaultClient",
-                "IGNORE_EXCEPTIONS": True,
-            },
-        }
-    }
+}
+
 DJANGO_REDIS_IGNORE_EXCEPTIONS = True
 DJANGO_REDIS_LOG_IGNORED_EXCEPTIONS = True
 CELERY_BROKER_URL = REDIS_URL
