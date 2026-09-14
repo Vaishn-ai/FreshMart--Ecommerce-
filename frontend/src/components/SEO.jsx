@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async";
 const SITE_NAME = "FreshMart";
 const DEFAULT_DESCRIPTION = "Fresh groceries, delivered fast. Shop fruits, vegetables, dairy, snacks, and everyday essentials at everyday low prices.";
 const DEFAULT_IMAGE = "/og-image.png";
-const SITE_URL = import.meta.env.VITE_SITE_URL || "http://localhost:5173";
+const SITE_URL = import.meta.env.VITE_SITE_URL || "https://freshmart-ecommerce-pied.vercel.app";
 
 /**
  * Drop into any page to set its title, meta description, canonical URL,

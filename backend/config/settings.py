@@ -188,7 +188,7 @@ CORS_ALLOW_CREDENTIALS = True
 # Used to build absolute URLs in the sitemap (frontend routes, not API routes).
 # In production this should be the single public domain nginx serves both
 # frontend and backend under (see deploy/nginx/default.conf).
-FRONTEND_URL = config("FRONTEND_URL", default="http://localhost:5173")
+FRONTEND_URL = config("FRONTEND_URL", default="https://freshmart-ecommerce-pied.vercel.app")
 
 
 
